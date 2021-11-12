@@ -1,22 +1,22 @@
 # Apple
 # 一般国内Apple肯定正常,不需要开代理
 DOMAIN,apple.comscoreresearch.com
-DOMAIN-KEYWORD,aaplimg.com
+DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,akadns.net
-DOMAIN-KEYWORD,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple.co
-DOMAIN-KEYWORD,apple.com
+DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
-DOMAIN-KEYWORD,apple.news
-DOMAIN-KEYWORD,appstore.com
-DOMAIN-KEYWORD,cdn-apple.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-KEYWORD,icloud
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
-DOMAIN-KEYWORD,itunes
-DOMAIN-KEYWORD,me.com
-DOMAIN-KEYWORD,mzstatic.com
-DOMAIN-KEYWORD,apple-mapkit
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,63.92.224.0/19,no-resolve
 IP-CIDR,65.199.22.0/23,no-resolve
