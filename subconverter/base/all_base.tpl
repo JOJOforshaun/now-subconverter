@@ -6,11 +6,17 @@ allow-lan: {{ default(global.clash.allow_lan, "true") }}
 mode: Rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: :9090
-{% if default(request.clash.dns, "") == "1" %}
 dns:
-  enabled: true
-  listen: 1053
-{% endif %}
+  enable: true
+  listen: 127.0.0.1:53
+  ipv6: false
+  enhanced-mode: redir-host
+  default-nameserver:
+    - 162.14.132.76
+    - 8.8.8.8
+  nameserver:
+    - tls://162.14.132.76:853
+    - tls://8.8.8.8:853
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
