@@ -48,7 +48,7 @@ jobs:
       with:
         author_name: GitHub Action
         author_email: noreply@github.com
-        message: "Update sub-web from zhongfly/sub-web"
+        message: "Update sub-web"
         add: "-A"
       env:
         token: ${{ secrets.GITHUB_TOKEN }}
